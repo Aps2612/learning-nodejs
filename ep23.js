@@ -10,6 +10,8 @@ const express = require('express');
 
 const app = express();
 
+const fs = require('fs');
+
 app.set('view engine','ejs');
 
 app.get('/',(req,res)=>{
@@ -20,6 +22,7 @@ const userroute = require('./routes/users2');
 app.use('/users2',userroute);
 
 
+fs.writeFileSync('mongodb.js','');
 
 app.listen(8000);
 
