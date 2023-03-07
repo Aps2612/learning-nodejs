@@ -22,7 +22,7 @@ const userroute = require('./routes/users2');
 app.use('/users2',userroute);
 
 
-fs.writeFileSync('mongodb.js','');
+
 
 app.listen(8000);
 
