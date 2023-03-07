@@ -1,3 +1,4 @@
 # learning-nodejs
 
-ignore this I am just learning nodejs from code step by step
+BASIC EXPRESS AND NODE CODE
+
